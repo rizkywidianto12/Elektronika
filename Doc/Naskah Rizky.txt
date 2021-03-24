@@ -1,11 +1,13 @@
 
-if we have finished assembling the amplifier, the next step is testing
+if we had finished assembling the amplifier, the next step is testing
 
 the first step is to prepare the power supply
 the power supply used is symmetrical type, it has 3 outputs. positive, negative and ground
 measure the voltage using the avometer.
-if positive and ground measure 12 volts, gound and negative must be 12 volts as well, 
+if positive and ground measure 12 volts, gound and negative must be 12 volts as well,
 or the difference is not too far
+
+A rectifier diode is a semiconductor diode, used to rectify AC (alternating current) to DC (direct current) using the rectifier bridge application
 
 calculate the output power
 the formula is volts times amperes
@@ -16,6 +18,6 @@ if we increase the voltage and current, of course we also have to add the final 
 measure the output voltage
 before that, we must turn the pot volume to minimum. counterclockwise
 measure the output voltage using the avometer, 10 vdc scale
-if the measured dc voltage comes out. then something is wrong with the amplifier
-if dc voltage is not measured. the amplifier is ready and safe when connected to a loudspeaker
 
+if dc voltage exist, it can blow up your loudspeaker
+dc voltage on output indicate there are problem with the amplifier

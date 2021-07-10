@@ -9,4 +9,4 @@ Repository projek amplifier OCL untuk kegiatan US Teknik Audio Video
  5. Wawan
 
 ### Daftar Pustaka
-https://github.com/rizkywidianto12/US-Angkasa1_OCL150W/blob/main/Pustaka.txt
+https://github.com/rizkywidianto12/Elektronika/blob/main/TA%20OCL%202021/Pustaka.txt

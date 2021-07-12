@@ -1,0 +1,93 @@
+Keterangan :	Panel surya polycrystalline
+Bahan sel surya :	Campuran silikon dengan material lain
+Harga Jual* :	Mulai dari Rp. 8,848.51/Wp
+Estetika :	Rata-rata berwarna kebiruan
+Kebutuhan area :	8-9 m² per 1 kWp
+Efisiensi panel :	Sekitar 13-18%
+
+panel tipe polycrystallyne 3wp
+##Info tambahan (barangkali kepake)
+Max Power (W) :	3wp
+Tegangan : 6V
+Tegangan sirkuit terbuka : 7.3v
+Arus hubung singkat : 0.54A
+Modul efisien : 9%
+Dimensi (mm) : 238 * 140 * 17
+
+===
+
+Baterai Li-ion tipe 18650
+##
+tegangan 3.65V
+kapasitas 2.850 mAh
+tegangan pengisian 4.2V
+arus pegisian 1.375 mAh
+waktu pegissian 3 jam
+
+fungsi menyimpan energi listrik (?)
+
+===
+
+Modul Charger TP4056
+##
+tegangan input min 4V, max 8V, rekomendasi 5V
+tegangan pengisian baterai 4.2V
+Arus pegisian baterai 1000mAh (1A)
+
+Deskripsi
+TP4056 adalah pengisi daya untuk baterai Li-ion. dapat bekerja dengan USB atau
+Adaptor. tegangan pengisian adalah 4.2V dan arus pengisian dapat di program dengan menggubah
+nilai satu resistor. TP4056 mengakhiri pengisian setelah tegangan baterai tercapai. Fitur lainnya
+termasuk monitor arus, pengisian ulang otomatis dan dua buah led sebagai indikator pengisian
+
+===
+
+Transistor
+(maaf kalo agak panjang.. transistor memang lumayan ribet)
+Deskripsi
+Transistor adalah sebuah komponen elektronika yang digunakan untuk penguat, sebagai sirkuit 
+pemutus, sebagai penyambung, sebagai stabilitas tegangan, modulasi sinyal dan lain-lain
+##
+Transistor mempunyai 3 kaki yaitu Base, Collector, Emitter
+Transistor yang digunakan pada project ini adalah transistor PNP
+dimana arus akan mengalir dari Collector ke Emitter jika Base diberi muatan negatif
+dan arus tidak akan mengalir jika Base mendapat muatan positif
+
+
+**Kunci utama rangkaian Lampu otomatis
+Saat di siang hari, panel surya menghasilkan tegangan listrik. kabel positif dari panel surya
+terhubung dengan pin Base transistor sehingga arus dari baterai tidak mengalir ke lampu LED,
+sehingga lampu led padam.
+
+saat di malam hari, panel surya tidak menghasilkan tegangan. pin Base tidak mendapat muatan positif
+sehingga menyebabkan arus dapat mengalir ban menyalakan lampu
+
+===
+
+Lampu LED
+##
+WHITE 3528 SMD LED 
+Tegangan Kerja : 2.8V
+Arus : 20mA
+Dimensi (mm) : 3.5*2.8*1.9
+
+
+lampu led dipilih karena Lampu LED memiliki usia pakai dan efisiensi listrik beberapa 
+kali lipat lebih balik daripada lampu pijar dan tetap jauh lebih efisien daripada lampu neon
+
+Light Emitting Diode atau sering disingkat dengan LED adalah komponen elektronika yang dapat 
+memancarkan  cahaya monokromatik ketika diberikan tegangan maju. LED merupakan keluarga Dioda 
+yang terbuat dari bahan semikonduktor. Warna-warna Cahaya yang dipancarkan oleh LED tergantung 
+pada jenis bahan semikonduktor yang dipergunakannya
+
+
+
+
+
+
+
+
+
+
+
+
